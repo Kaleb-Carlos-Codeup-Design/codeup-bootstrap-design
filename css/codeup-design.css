@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+:root {
+    --red: #e6563b;
+    --orange: #EB9D3A;
+    --green: #7cb06c;
+    --blue: #00aba9;
+    --lightgrey: #f0f0f0;
+    --grey: #e6e6e6;
+
+    --h1: 64px;
+    --h2: 48px;
+    --h3: 40px;
+    --h4: 32px;
+    --h5: 28px;
+}
+
+body {
+    background-color: var(--lightgrey);
+    font-family: "Abel", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Anton", sans-serif;
+}
+h1 {
+    font-size: var(--h1);
+}
+h2 {
+    font-size: var(--h2)
+}
+h3 {
+    font-size: var(--h3);
+}
+h4 {
+    font-size: var(--h4);
+}
+h5 {
+    font-size: var(--h5);
+}
+
+#services .design, #services .develop, #services .support, #services .host {
+    border-radius: 50%;
+}
+
+#services .design {
+    background-color: var(--red);
+}
+
+#services .develop {
+    background-color: var(--orange);
+}
+
+#services .support {
+    background-color: var(--green);
+}
+
+#services .host {
+    background-color: var(--blue);
+}
