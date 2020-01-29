@@ -23,7 +23,7 @@ body {
     text-align: center;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Anton", sans-serif;
 }
 h1 {
@@ -49,19 +49,28 @@ h5 {
     border: 10px solid #fff;
 }
 
-#services .design {
+.design {
     background-color: var(--red);
-
 }
 
-#services .develop {
+.develop {
     background-color: var(--orange);
 }
 
-#services .support {
+.support {
     background-color: var(--green);
 }
 
-#services .host {
+.host {
     background-color: var(--blue);
+}
+
+h6 {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.tweet {
+    text-transform: none;
 }
