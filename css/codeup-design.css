@@ -107,15 +107,14 @@ h5 {
 .codeup-design-title {
     text-transform: lowercase;
     font-size: 48px;
-    padding-left: 220px;
+    /*padding-left: 220px;*/
 }
 .img-logo {
     max-height: 189px;
 }
-.nav-list {
-    padding: 15px;
-    font-size: 32px;
-}
-.navbar {
-    margin: 100px 0;
+.bar-bg {
+    height: 100px;
+    top: 50px;
+    left: 0;
+    right: 0;
 }
