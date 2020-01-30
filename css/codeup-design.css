@@ -15,7 +15,19 @@
     --h4: 32px;
     --h5: 28px;
 }
+@media (min-width: 576px) and (max-width: 766px) {
+    .navbar ul {
+        position: absolute;
+        top: 90px;
+        width: 75%;
 
+    }
+}
+@media (min-width: 768px) {
+    .navbar ul {
+        margin-left: auto;
+    }
+}
 @media (min-width: 992px) {
     #services {
         padding: 0 8em;
