@@ -15,7 +15,7 @@
     --h4: 32px;
     --h5: 28px;
 }
-@media (min-width: 576px) and (max-width: 766px) {
+@media (min-width: 576px) and (max-width: 767px) {
     .navbar ul {
         position: absolute;
         top: 90px;
@@ -24,8 +24,8 @@
     }
 }
 @media (min-width: 768px) {
-    .navbar ul {
-        margin-left: auto;
+    .navbar li {
+        font-size: 1.15em;
     }
 }
 @media (min-width: 992px) {
@@ -125,8 +125,8 @@ h5 {
     max-height: 189px;
 }
 .bar-bg {
-    height: 100px;
-    top: 50px;
+    height: 75px;
+    top: 65px;
     left: 0;
     right: 0;
 }
