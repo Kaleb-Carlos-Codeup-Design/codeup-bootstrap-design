@@ -10,17 +10,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/codeup-design.css">
 </head>
 <body>
-
-<main class="container">
+<header class="container-fluid">
     <h1 class="mb-5">Visual Design & Web Development</h1>
     <h2 class="mt-5 mb-5">From Park City, Utah</h2>
-
+</header>
+<main class="container-fluid container-lg">
     <section class="mt-5 mb-2" id="services">
         <div class="row">
-            <div class="col-6 col-sm-3 test">
+            <div class="col-6 col-sm-3">
                 <h4 class="design">Design</h4>
             </div>
             <div class="col-6 col-sm-3">
@@ -41,72 +42,87 @@
         <div class="row">
             <div class="col-md-7">
                 <p class="text-md-left mb-5">selected work</p>
-                <div class="row">
-                    <div class="col-12 col-sm-6">
+                <div class="selected-work d-flex flex-column flex-sm-row flex-wrap">
+                    <div class="work-item">
                         <img src="img/apple-ipad.jpg" alt="" class="img-fluid img-border rounded">
-                        <div class="row">
-                            <div class="col-8"><p class="text-left">featured project</p></div>
-                            <div class="col-1 p-0"><h6 class="circle design">D</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle develop">D</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle support">S</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle host">H</h6></div>
+                        <div class="featured-project d-flex flex-row flex-sm-column flex-xl-row justify-content-between mt-2">
+                            <p>featured-project</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><h6 class="circle design">D</h6></li>
+                                <li class="list-inline-item"><h6 class="circle develop">D</h6></li>
+                                <li class="list-inline-item"><h6 class="circle support">S</h6></li>
+                                <li class="list-inline-item"><h6 class="circle host">H</h6></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 d-none d-sm-block">
+                    <div class="work-item d-none d-sm-block">
                         <img src="img/macbook.jpg" alt="" class="img-fluid img-border rounded">
-                        <div class="row">
-                            <div class="col-8"><p class="text-left">featured project</p></div>
-                            <div class="col-1 p-0"><h6 class="circle design">D</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle develop">D</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle support">S</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle host">H</h6></div>
+                        <div class="featured-project d-flex flex-row flex-sm-column flex-xl-row justify-content-between mt-2">
+                            <p>featured-project</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><h6 class="circle design">D</h6></li>
+                                <li class="list-inline-item"><h6 class="circle develop">D</h6></li>
+                                <li class="list-inline-item"><h6 class="circle support">S</h6></li>
+                                <li class="list-inline-item"><h6 class="circle host">H</h6></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 d-none d-sm-block">
+                    <div class="work-item d-none d-sm-block">
                         <img src="img/man.jpg" alt="" class="img-fluid img-border rounded">
-                        <div class="row">
-                            <div class="col-8"><p class="text-left">featured project</p></div>
-                            <div class="col-1 p-0"><h6 class="circle design">D</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle develop">D</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle support">S</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle host">H</h6></div>
+                        <div class="featured-project d-flex flex-row flex-sm-column flex-xl-row justify-content-between mt-2">
+                            <p>featured-project</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><h6 class="circle design">D</h6></li>
+                                <li class="list-inline-item"><h6 class="circle develop">D</h6></li>
+                                <li class="list-inline-item"><h6 class="circle support">S</h6></li>
+                                <li class="list-inline-item"><h6 class="circle host">H</h6></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 d-none d-sm-block">
+                    <div class="work-item d-none d-sm-block">
                         <img src="img/security.jpg" alt="" class="img-fluid img-border rounded">
-                        <div class="row">
-                            <div class="col-8"><p class="text-left">featured project</p></div>
-                            <div class="col-1 p-0"><h6 class="circle design">D</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle develop">D</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle support">S</h6></div>
-                            <div class="col-1 p-0"><h6 class="circle host">H</h6></div>
+                        <div class="featured-project d-flex flex-row flex-sm-column flex-xl-row justify-content-between mt-2">
+                            <p>featured-project</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><h6 class="circle design">D</h6></li>
+                                <li class="list-inline-item"><h6 class="circle develop">D</h6></li>
+                                <li class="list-inline-item"><h6 class="circle support">S</h6></li>
+                                <li class="list-inline-item"><h6 class="circle host">H</h6></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-5 d-none d-md-block">
                 <p class="text-left mb-5">the last</p>
-                <div class="row">
-                    <div class="col-md-5 col-lg-3 mb-5 img-size">
+                <div class="row last-item mb-3">
+                    <div class="col-md-3 p-0">
                         <img src="img/mobile-phone.jpg" class="img-fluid img-border-sm" alt="">
                     </div>
-                    <div class="col-md-7 col-lg-9">
+                    <div class="col-md-9">
                         <h5 class="text-left">The admin bar and absolute positioning</h5>
                     </div>
-                    <div class="col-md-4 col-lg-3 mb-5 img-size">
+                </div>
+                <div class="row last-item mb-3">
+                    <div class="col-md-3 p-0">
                         <img src="img/head.jpg" class="img-fluid img-border-sm" alt="">
                     </div>
-                    <div class="col-md-8 col-lg-9">
+                    <div class="col-md-9">
                         <h5 class="text-left">Nibbler awesome website testing</h5>
                     </div>
-                    <div class="col-md-4 col-lg-3 mb-5 img-size">
+                </div>
+                <div class="row last-item mb-5">
+                    <div class="col-md-3 p-0">
                         <img src="img/ipad.jpg" class="img-fluid img-border-sm" alt="">
                     </div>
-                    <div class="col-md-8 col-lg-9">
+                    <div class="col-md-9">
                         <h5 class="text-left">How to get google to like you</h5>
                     </div>
                 </div>
-                <p class="text-left">last tweet</p>
+                <div class="last-tweet d-flex">
+                    <i class="fa fa-twitter mr-2"></i>
+                    <p>Last Tweet</p>
+                </div>
                 <p class="text-left tweet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut distinctio
                     eaque facere maiores nam rerum saepe voluptates. Itaque, optio, possimus. Consectetur culpa dolorum
                     esse excepturi neque praesentium, quis quos sit.</p>
