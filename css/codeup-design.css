@@ -15,11 +15,6 @@
     --h4: 32px;
     --h5: 28px;
 }
-/*@media (min-width: 768px) and (max-width: 991px) {*/
-/*    #services {*/
-/*        padding: 0 7em;*/
-/*    }*/
-/*}*/
 
 @media (min-width: 992px) {
     #services {
@@ -106,4 +101,21 @@ h5 {
 .img-border-sm {
     border: 3px solid var(--grey);
     object-fit: cover;
+}
+
+/*NAVBAR*/
+.codeup-design-title {
+    text-transform: lowercase;
+    font-size: 48px;
+    padding-left: 220px;
+}
+.img-logo {
+    max-height: 189px;
+}
+.nav-list {
+    padding: 15px;
+    font-size: 32px;
+}
+.navbar {
+    margin: 100px 0;
 }
