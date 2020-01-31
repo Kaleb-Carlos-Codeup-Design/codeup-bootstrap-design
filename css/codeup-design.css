@@ -8,11 +8,6 @@
     --blue: #00aba9;
     --lightgrey: #f0f0f0;
     --grey: #e6e6e6;
-    --h1: 64px;
-    --h2: 48px;
-    --h3: 40px;
-    --h4: 32px;
-    --h5: 28px;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -28,7 +23,6 @@
 @media (min-width: 992px) {
     #services {padding: 0 8em;}
 }
-
 
 body {
     background-color: var(--lightgrey);
@@ -55,12 +49,12 @@ body {
 
 /*HEADING PROPERTIES*/
 h1, h2, h3, h4, h5, h6 {font-family: "Anton", sans-serif;}
-h1 {font-size: var(--h1);}
-h2 {font-size: var(--h2)}
-h3 {font-size: var(--h3);}
-h4 {font-size: var(--h4);
+h1 {font-size: 64px;}
+h2 {font-size: 48px}
+h3 {font-size: 40px);}
+h4 {font-size: 32px;
     color: #fff;}
-h5 {font-size: var(--h5);}
+h5 {font-size: 28px;}
 
 
 /*SPACING FOR FEATURED ARTICLES*/
