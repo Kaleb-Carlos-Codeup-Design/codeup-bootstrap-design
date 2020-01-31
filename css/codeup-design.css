@@ -8,30 +8,25 @@
     --blue: #00aba9;
     --lightgrey: #f0f0f0;
     --grey: #e6e6e6;
-
     --h1: 64px;
     --h2: 48px;
     --h3: 40px;
     --h4: 32px;
     --h5: 28px;
 }
+
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar ul {
         position: absolute;
         top: 90px;
         width: 75%;
-
     }
 }
 @media (min-width: 768px) {
-    .navbar li {
-        font-size: 1.15em;
-    }
+    .navbar li {font-size: 1.15em;}
 }
 @media (min-width: 992px) {
-    #services {
-        padding: 0 8em;
-    }
+    #services {padding: 0 8em;}
 }
 
 
@@ -42,84 +37,10 @@ body {
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Anton", sans-serif;
-}
-h1 {
-    font-size: var(--h1);
-}
-h2 {
-    font-size: var(--h2)
-}
-h3 {
-    font-size: var(--h3);
-}
-h4 {
-    font-size: var(--h4);
-    color: #fff;
-
-}
-h5 {
-    font-size: var(--h5);
-}
-
-.design {
-    background-color: var(--red);
-}
-
-.develop {
-    background-color: var(--orange);
-}
-
-.support {
-    background-color: var(--green);
-}
-
-.host {
-    background-color: var(--blue);
-}
-
-#services .design, #services .develop, #services .support, #services .host {
-    padding: calc(50% - 30px) 0;
-    border: 10px solid #fff;
-    border-radius: 50%;
-    text-align: center;
-
-}
-.selected-work .work-item {
-    margin-bottom: 1.5em;
-    padding: 0 15px;
-    flex: 0 0 50%;
-}
-.circle {
-    padding: 4px 9px;
-    border-radius: 50%;
-    text-align: center;
-}
-
-.fa-twitter {
-    font-size: 36px;
-    color: #00acee;
-}
-.tweet {
-    text-transform: none;
-}
-.selected-work-tweet {
-    margin-top: 4em;
-}
-.img-border {
-    border: 10px solid var(--grey);
-}
-.img-border-sm {
-    border: 3px solid var(--grey);
-    object-fit: cover;
-}
-
 /*NAVBAR*/
 .codeup-design-title {
     text-transform: lowercase;
     font-size: 48px;
-    /*padding-left: 220px;*/
 }
 .img-logo {
     max-height: 189px;
@@ -129,4 +50,61 @@ h5 {
     top: 65px;
     left: 0;
     right: 0;
+}
+
+
+/*HEADING PROPERTIES*/
+h1, h2, h3, h4, h5, h6 {font-family: "Anton", sans-serif;}
+h1 {font-size: var(--h1);}
+h2 {font-size: var(--h2)}
+h3 {font-size: var(--h3);}
+h4 {font-size: var(--h4);
+    color: #fff;}
+h5 {font-size: var(--h5);}
+
+
+/*SPACING FOR FEATURED ARTICLES*/
+.selected-work .work-item {
+    margin-bottom: 1.5em;
+    padding: 0 15px;
+    flex: 0 0 50%;
+}
+
+/*IMG BORDERS*/
+.img-border {
+    border: 10px solid var(--grey);
+}
+.img-border-sm {
+    border: 3px solid var(--grey);
+    object-fit: cover;
+}
+
+/*COLORS FOR CIRCLES*/
+.design {background-color: var(--red);}
+.develop {background-color: var(--orange);}
+.support {background-color: var(--green);}
+.host {background-color: var(--blue);}
+
+/*LARGE CIRCLE PROPERTIES*/
+#services .design, #services .develop, #services .support, #services .host {
+    padding: calc(50% - 30px) 0;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*SMALL CIRCLE PROPERTIES*/
+.circle {
+    padding: 4px 9px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*TWEET PROPERTIES*/
+.fa-twitter {
+    font-size: 36px;
+    color: #00acee;
+}
+.tweet {
+    text-transform: none;
 }
